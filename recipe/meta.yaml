@@ -19,7 +19,7 @@ requirements:
   run:
     - python
     - notebook
-    - qtconsole
+    - qtconsole  # [not armv6l and not armv7l]
     - jupyter_console
     - nbconvert
     - ipykernel
